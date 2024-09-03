@@ -51,14 +51,93 @@ a {
 
 /*********************************************** HEADER - NAVIGATION ********************************************************/
 
+/*********************************************** MAIN CONTENT ********************************************************/
+main, header {
+    background: var(--martinique);
+    padding-inline: 15.38px;
+    width: 100%;
+}
+
+/*********************************************** HERO SECTION ********************************************************/
+
+.hero-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.hero-block-text h1 {
+    padding: 5.27px 25px;
+    text-align: center;
+    font-size: var(--text-4xl);
+    font-weight: 700;
+    color: var(--main-white);
+    line-height: 45px;
+    margin-bottom: 12px;
+}
+
+.hero-block-text p {
+    padding-inline: 6px;
+    text-align: center;
+    font-size: var(--text-base);
+    font-weight: 500;
+    color: var(--main-white);
+    line-height: 26px;
+    opacity: 0.7;
+}
+
+.app-download {
+    padding-top: 26px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.download-btn {
+    margin-block: 10px;
+    padding: 12px 30px;
+    width: 350px;
+    height: 60px;
+    background: var(--picon-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    border-radius: 100px;
+}
+
+.download-btn span {
+    text-align: center;
+    font-size: var(--text-2xl);
+    color: var(--main-white);
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: -0.4px;
+}
+
+.hero-block-image {
+    margin-top: 32px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
 /*********************************************** FOOTER ********************************************************/
 footer {
+    width: 100%;
     background: var(--ebony-clay);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;padding: 54px 56px;
-    padding: 54px 56px;
+    padding: 51.92px 53.85px;
     color: var(--main-white);
 }
 
