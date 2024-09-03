@@ -89,6 +89,10 @@ header {
     left: 42px;
 }
 
+#toggle-btn {
+    cursor: pointer;
+}
+
 .nav-link {
     color: var(--main-white);
     line-height: 25px;
