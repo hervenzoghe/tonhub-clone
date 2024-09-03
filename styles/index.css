@@ -40,6 +40,7 @@
 body {
     font-family: 'Lexend';
     font-size: var(--text-base);
+    background: var(--martinique);
 }
 
 ul li {
@@ -51,10 +52,64 @@ a {
 }
 
 /*********************************************** HEADER - NAVIGATION ********************************************************/
+.header-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 30px;
+}
+
+header {
+    margin-bottom: 27px;
+    position: sticky;
+    top: 0;
+    z-index: 30;
+    height: 60px;
+    backdrop-filter: blur(50px);
+    --webkit-backdrop-filter: blur(50px)
+}
+
+.nav-menu {
+    display: none;
+    align-items: flex-start;
+    font-size: var(--text-base);
+    font-weight: 400;
+    color: var(--main-white);
+    letter-spacing: -0.4%;
+    z-index: 999;
+    width: 160px;
+    height: 160px;
+    padding: 12px;
+    background: var(--martinique);
+    border-radius: 12px;
+    overlay: revert;
+    position: relative;
+    top: 100px;
+    left: 42px;
+}
+
+.nav-link {
+    color: var(--main-white);
+    line-height: 25px;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+#logo h3 {
+    color: var(--main-white);
+    font-size: var(--text-xl);
+    font-weight: 500;
+    line-height: 28px;
+}
 
 /*********************************************** MAIN CONTENT ********************************************************/
-main, header {
-    background: var(--martinique);
+main {
     padding-inline: 16px;
     width: 100%;
 }
