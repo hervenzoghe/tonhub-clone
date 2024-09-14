@@ -265,9 +265,9 @@ main {
     align-items: center;
 }
 
-/*********************************************** FEATURES SECTION ********************************************************/
+/*********************************************** FINANCIAL SERENITY SECTION ********************************************************/
 .financial-serenity {
-    padding: 79px 14px;
+    padding: 64px 14px;
 }
 
 .financial-serenity h2 {
@@ -500,6 +500,11 @@ footer {
     .overview-block h2, .financial-serenity h2 {
         padding-block: 32px 24px;
         text-wrap: nowrap;
+    }
+
+    /******************** DOWNLOAD APP SECTION *********************/
+    .financial-serenity {
+        padding: 16px 40px;
     }
 
     /******************** DOWNLOAD APP SECTION *********************/
