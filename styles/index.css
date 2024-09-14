@@ -237,7 +237,7 @@ main {
     padding-inline: 16px;
     width: 100%;
     height: 384px;
-    background: var(--picon-blue);
+    background: var(--boston-blue);
     border-radius: 12px;
 }
 
@@ -467,7 +467,8 @@ footer {
 @media screen and (min-width:768px) {
     /****************** HERO SECTION ******************/
     .hero-section h1{
-        padding-inline: 48px;
+        padding-inline: 16px;
+        padding-top: 16px;
     }
 
     .hero-section p {
@@ -475,7 +476,7 @@ footer {
     }
 
     .app-download {
-        flex-direction: column;
+        gap: 32px;
         padding-top: 26px;
     }
 
@@ -484,7 +485,7 @@ footer {
     }
 
     .hero-block-image {
-        margin-top: 32px;
+        margin-top: 0px;
     }
 
     /***************** OVERVIEW and FEATURES SECTION ***************/
@@ -493,18 +494,32 @@ footer {
         padding-top: 16px;
     }
 
-    .overview-block, .feature-block, .financial-serenity {
+    .overview-block, .feature-block {
         border-radius: 50px;
     }
 
-    .overview-block h2, .financial-serenity h2 {
+    .overview-block h2{
         padding-block: 32px 24px;
         text-wrap: nowrap;
     }
 
-    /******************** DOWNLOAD APP SECTION *********************/
+    .feature-block h2 {
+        font-size: var(--text-4xl);
+    }
+
+    /******************** FINANCIAL SERENITY SECTION *********************/
     .financial-serenity {
-        padding: 16px 40px;
+        padding: 32px 40px;
+    }
+
+    .financial-serenity h2 {
+        padding-inline: 100px;
+        text-wrap: wrap;
+    }
+
+    .financial-serenity p {
+        padding-inline: 64px;
+        text-wrap: wrap;
     }
 
     /******************** DOWNLOAD APP SECTION *********************/
@@ -526,7 +541,6 @@ footer {
 }
 
 @media screen and (min-width:1024px) {
-
 }
 
 @media screen and (min-width:1440px) {
