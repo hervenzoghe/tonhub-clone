@@ -266,6 +266,32 @@ main {
 }
 
 /*********************************************** FEATURES SECTION ********************************************************/
+.financial-serenity {
+    padding: 79px 14px;
+}
+
+.financial-serenity h2 {
+    font-size: var(--text-4xl);
+    font-weight: 700;
+    color: var(--main-white);
+    line-height: 45px;
+    text-align: center;
+    padding-bottom: 7px;
+    padding-inline: 2px;
+}
+
+.financial-serenity p {
+    font-size: var(--text-base);
+    font-weight: 500;
+    line-height: 26px;
+    color: var(--main-white);
+    opacity: 0.7;
+    text-align: center;
+    padding-bottom: 24px;
+    padding-inline: 12px;
+}
+
+/*********************************************** FEATURES SECTION ********************************************************/
 .feature-block {
     background: var(--bg-feature);
     padding: 38px 21px;
@@ -435,4 +461,69 @@ footer {
 
 .links-container:last-of-type a {
     color: var(--main-white);
+}
+
+/********************************************** RESPONSIVE DESIGN *****************************************/
+@media screen and (min-width:768px) {
+    /****************** HERO SECTION ******************/
+    .hero-section h1{
+        padding-inline: 48px;
+    }
+
+    .hero-section p {
+        padding-inline: 12px;
+    }
+
+    .app-download {
+        flex-direction: column;
+        padding-top: 26px;
+    }
+
+    .download-btn {
+        width: 194px;
+    }
+
+    .hero-block-image {
+        margin-top: 32px;
+    }
+
+    /***************** OVERVIEW and FEATURES SECTION ***************/
+    .overview-section {
+        margin-top: 32px;
+        padding-top: 16px;
+    }
+
+    .overview-block, .feature-block, .financial-serenity {
+        border-radius: 50px;
+    }
+
+    .overview-block h2, .financial-serenity h2 {
+        padding-block: 32px 24px;
+        text-wrap: nowrap;
+    }
+
+    /******************** DOWNLOAD APP SECTION *********************/
+    .download-app {
+        padding: 24px 100px;
+    }
+
+    footer {
+        padding: 84px 190px;
+    }
+
+    .footer-links {
+        align-self: stretch;
+    }
+
+    .links-container {
+        width: auto;
+    }
+}
+
+@media screen and (min-width:1024px) {
+
+}
+
+@media screen and (min-width:1440px) {
+
 }
