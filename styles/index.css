@@ -175,7 +175,7 @@ main {
     font-weight: 500;
     color: var(--main-white);
     line-height: 26px;
-    opacity: 0.7;
+    opacity: 0.8;
     padding-inline: 12px;
 }
 
@@ -627,5 +627,36 @@ footer {
 }
 
 @media screen and (min-width:1440px) {
+    main {
+        padding-inline: 190px;
+    }
 
+    /**************************** HERO SECTION **********************/
+    .hero-section {
+        flex-wrap: nowrap;
+        width: 1060px;
+    }
+    .hero-block-image {
+        width: 25%;
+    }
+
+    .hero-block-text {
+        width: 75%;
+    }
+
+    .hero-block-text h1 {
+        text-align: left;
+        font-size: var(--text-6xl);
+        line-height: 80px;
+    }
+
+    .hero-block-text p {
+        text-align: left;
+        font-size: var(--text-4xl);
+        line-height: 50px;
+    }
+
+    .app-download {
+        justify-content: left;
+    }
 }
