@@ -541,6 +541,89 @@ footer {
 }
 
 @media screen and (min-width:1024px) {
+    main {
+        padding-inline: 100px;
+    }
+
+    /**************************** OVERVIEW SECTION **********************/
+    .overview-section {
+        row-gap: 64px;
+    }
+    .overview-block {
+        height: 486px;
+        gap: 64px;
+    }
+
+    .overview-image img {
+        overflow: hidden;
+        transform: scale(1.5);
+    }
+
+    .overview-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-grow: 1;
+        max-height: 390px;
+        position: relative;
+    }
+
+    .overview-block:first-child .overview-image img {
+        position: absolute;
+        bottom: 62px;
+    }
+
+    .overview-block:last-child .overview-image img {
+        position: absolute;
+        bottom: 61px;
+    }
+    .overview-block h2 {
+        font-size: var(--text-3xl);
+    }
+
+    /**************************** FINANCIAL SERENETY SECTION **********************/
+    .financial-serenity p {
+        font-size: var(--text-2xl);
+        margin-top: 24px;
+    }
+
+    /**************************** FEATURES SECTION **********************/
+    .feature-block {
+        padding-inline: 64px;
+    }
+    .feature-block p {
+        font-size: var(--text-2xl);
+        padding-bottom: 48px;
+    }
+
+    /**************************** DOAWNLOAD APP **********************/
+    .download-app {
+        padding-block: 40px;
+    }
+
+    .download-app h2 {
+        padding-bottom: 24px;
+    }
+
+    .download-app p {
+        padding-bottom: 48px;
+        padding-inline: 21px;
+        line-height: 38px;
+        font-size: var(--text-2xl);
+    }
+
+    .download-btn {
+        font-size: var(--text-2xl);
+    }
+
+    /********************************** FOOTER ************************/
+    .footer-container {
+        row-gap: 8px;
+    }
+    .footer-links {
+        width: auto;
+        column-gap: 64px;
+    }
 }
 
 @media screen and (min-width:1440px) {
