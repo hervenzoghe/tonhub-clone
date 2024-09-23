@@ -22,6 +22,7 @@
     --text-2xl: 1.5rem; /* 24px */
     --text-3xl: 1.875rem; /* 30px */
     --text-4xl: 2.125rem; /* 34px */
+    --text-4xxl: 2.625rem; /* 42px */
     --text-5xl: 3.125rem; /* 50px */
     --text-5xxl: 3.375rem; /* 54px */
     --text-6xl: 3.75rem; /* 60px */
@@ -667,6 +668,25 @@ footer {
 
     .app-download {
         justify-content: left;
+    }
+
+    .overview-block {
+        height: 548.35px;
+    }
+
+    .overview-block h2 {
+        margin: 70px 0 40px;
+        font-size: var(--text-4xxl);
+    }
+
+    .overview-block:first-child .overview-image {
+        width: 529px;
+        height: 380px;
+        transform: scale(0.65);
+        display: flex;
+        flex-grow: 1;
+        align-items: flex-end;
+        bottom: -30px;
     }
 
     .financial-serenity {
