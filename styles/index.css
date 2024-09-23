@@ -94,6 +94,10 @@ header {
     cursor: pointer;
 }
 
+.download {
+    display: none;
+}
+
 .nav-link {
     color: var(--main-white);
     line-height: 25px;
@@ -355,7 +359,7 @@ main {
     padding-bottom: 24px;
 }
 
-.download-app .download-btn {
+.download-app .download-btn, .download .download-btn {
     width: 180px;
     height: 60px;
     display: flex;
@@ -635,6 +639,52 @@ footer {
 }
 
 @media screen and (min-width:1440px) {
+    header {
+        height: 119px;
+        padding-bottom: 53px;
+        padding-top: 30px;
+        margin-bottom: 48px;
+    }
+    .header-container {
+        padding: 14px 30px;
+        margin-bottom: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 64px;
+    }
+    #nav-menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 0;
+        width: 534px;
+        background: none;
+        position: sticky;
+    }
+
+    .nav-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 28px;
+    }
+
+    .nav-list .nav-link {
+        font-size: var(--text-2xl);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+    }
+
+    #toggle-btn {
+        display: none;
+    }
+
+    .header-container .download {
+        display: flex;
+        width: 180px;
+    }
     main {
         padding-inline: 190px;
     }
