@@ -65,7 +65,7 @@ main {
     justify-content: center;
 }
 
-.container p {
+.subtitle {
     margin-inline: 20px;
 }
 
@@ -141,7 +141,7 @@ main {
         scroll-behavior: smooth;
     }
 
-    .container p {
+    .subtitle {
         font-size: var(--text-4xl);
         line-height: 54px;
     }
@@ -157,22 +157,19 @@ main {
 
     .content p {
         font-size: var(--text-3xl);
+        line-height: 54px;
     }
 }
 
 @media screen and (min-width:2560px) {
 
-    .container p {
+    .subtitle {
         width: 1540px;
     }
     .container-wrapper {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 48px;
-    }
-
-    .content p {
-        width: 654px;
     }
 
     .content {
